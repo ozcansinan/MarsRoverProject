@@ -17,7 +17,6 @@ namespace MarsRoverProject.Test
 
             return expectedParameters;
         }
-
         public class ExpectedParameters : IPlateu
         {
             public int XCoordinate { get; set; }
@@ -28,7 +27,6 @@ namespace MarsRoverProject.Test
                 this.Rovers = new List<Rover>();
             }
         }
-
     }
 
 }

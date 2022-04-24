@@ -209,7 +209,6 @@ namespace MarsRoverProject.Test
             plateu.Rovers.Add(RoverService.RunAndMovementRover(RoverService.DeployRover(plateu, "1 2 N"), "LMLMLMLMM"));
             plateu.Rovers.Add(RoverService.RunAndMovementRover(RoverService.DeployRover(plateu, "3 3 E"), "MMRMMRMRRM"));
 
-
             Assert.AreEqual(expectedData.XCoordinate, plateu.XCoordinate);
             Assert.AreEqual(expectedData.YCoordinate, plateu.YCoordinate);
             Assert.AreEqual(expectedData.Rovers.Count, plateu.Rovers.Count);

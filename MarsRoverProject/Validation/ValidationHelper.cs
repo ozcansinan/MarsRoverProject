@@ -24,7 +24,6 @@ namespace MarsRoverProject.Validation
             }
 
         }
-
         public static void RoverLocationParameterIsValid(string[] coordinateParameter)
         {
             if (coordinateParameter.Length != Constant.CoordinateValueLenght)
@@ -42,7 +41,6 @@ namespace MarsRoverProject.Validation
             }
 
         }
-
         public static void RoverMovementParameterIsValid(char[] movementParameter)
         {
 
@@ -55,7 +53,6 @@ namespace MarsRoverProject.Validation
             }
 
         }
-
         public static void RoverCoordinateIsValidInPlateu(Rover rover)
         {
             if (rover.XCoordinate > rover.Plateu.XCoordinate || rover.XCoordinate <= Constant.MinimumCoordinateValue || rover.YCoordinate > rover.Plateu.YCoordinate || rover.YCoordinate <= Constant.MinimumCoordinateValue)
