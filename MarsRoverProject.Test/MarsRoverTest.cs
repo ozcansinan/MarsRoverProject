@@ -133,7 +133,7 @@ namespace MarsRoverProject.Test
         }
 
         [TestMethod]
-        public void RoverMovements_Command_RoverMoveForward_DÝrection_East()
+        public void RoverMovements_Command_RoverMoveForward_Direction_East()
         {
 
             Assert.AreEqual(
